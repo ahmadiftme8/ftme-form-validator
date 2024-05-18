@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+        <div class="photo-container">
+            <h1 class="title">Front End Development Course</h1>
+            <div class="overlay"></div>
+            <!-- <img src="photo1.jpg" alt="photo"> -->
+        </div>
+        <div class="container">
+            <h1>Sign Up Today</h1>
+            <!-- Form -->
+            <form id="form">
+                <!-- full name -->
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" placeholder="Full Name">
+                </div>
+
+                <!-- Phone Number -->
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" placeholder="+989920976964">
+                </div>
+
+                <!-- Email -->
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" placeholder="email@address.com">
+                </div>
+
+                <!-- website URL -->
+                <div class="form-group">
+                    <label for="url">Wbsite URL</label>
+                    <input type="url" id="website" placeholder="http://ahmadiftme.com">
+                </div>
+
+                <!-- password -->
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password1" placeholder="Password">
+                </div>
+
+                <!-- confirm password -->
+                <div class="form-group">
+                    <label for="password">Confirm Password</label>
+                    <input type="password" id="password2" placeholder="Confirm Password">
+                </div>
+
+                <!-- submit button -->
+                <button type="submit">Register</button>
+            </form>
+            <!-- Error/success Message -->
+            <div class="message-container">
+                <h3 id="message">Don't Hesitate!</h3>
+            </div>
+        </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
